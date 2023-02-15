@@ -1,0 +1,30 @@
+.container {
+   // так просто разбивается на два столбцас соотвношением 35 на 50
+   display: grid;
+   grid-template-columns: 35% 50%;
+   gap: 15%;
+}
+
+//так создаем сзади фон
+.me {
+   width: 100%;
+   //    Aspect ratio (cоотношение сторон) – это отношение ширины изображения к его высоте. Существует несколько стандартных значений этого параметра.
+   aspect-ratio: 1/1;
+   border-radius: 2rem;
+   background: linear-gradient(
+      45deg,
+      transparent,
+      var(--color-primary),
+      transparent
+   );
+   display: grid;
+   //Сокращённое свойство CSS place-items позволяет одновременно выравнивать элементы и колонки, и ряда (т. е. по свойствам align-items и justify-items ) в соответствующей системе раскладки, такой как гриды или флексбоксы.
+   place-items: center;
+}
+
+//так просто разворачиваем изображение чтобы было видно сзади фон
+.image {
+   border-radius: 2rem;
+   overflow: hidden;
+   transform: rotate(10deg);
+}
