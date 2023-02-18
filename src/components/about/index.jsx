@@ -36,7 +36,8 @@ export const About = () => {
                      <small>80+ complited</small>
                   </article>
                </div>
-               <p>
+
+               <p className={st.content}>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Voluptates aliquid molestias corporis, beatae culpa eius est
                   facere voluptatum sequi vitae accusantium laborum eos sit?

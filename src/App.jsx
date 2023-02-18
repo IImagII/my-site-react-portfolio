@@ -1,6 +1,7 @@
 import { About } from './components/about'
 import { Contacts } from './components/contacts'
 import { Experients } from './components/expierens'
+import { Footer } from './components/footer/Footer'
 import { Header } from './components/header'
 import { Nav } from './components/nav'
 import { Portfolio } from './components/portfolio'
@@ -18,6 +19,7 @@ function App() {
          <Portfolio />
          <Testimonials />
          <Contacts />
+         <Footer />
       </>
    )
 }
