@@ -14,49 +14,49 @@ export const Experients = () => {
                   <article className={st.details}>
                      <BsPatchCheckFill className={st.icon} />
                      <div>
-                        <h4>HTML</h4>
+                        <h4 className={st.title}>HTML</h4>
                         <small className='text-light'>Experienced</small>
                      </div>
                   </article>
                   <article className={st.details}>
                      <BsPatchCheckFill className={st.icon} />
                      <div>
-                        <h4>CSS,SASS/SCSS</h4>
+                        <h4 className={st.title}>CSS,SASS/SCSS</h4>
                         <small className='text-light'>Experienced</small>
                      </div>
                   </article>
                   <article className={st.details}>
                      <BsPatchCheckFill className={st.icon} />
                      <div>
-                        <h4>JavaScript(ES6)</h4>
+                        <h4 className={st.title}>JavaScript</h4>
                         <small className='text-light'>Experienced</small>
                      </div>
                   </article>
                   <article className={st.details}>
                      <BsPatchCheckFill className={st.icon} />
                      <div>
-                        <h4>Bootstrap</h4>
+                        <h4 className={st.title}>Bootstrap</h4>
                         <small className='text-light'>Experienced</small>
                      </div>
                   </article>
                   <article className={st.details}>
                      <BsPatchCheckFill className={st.icon} />
                      <div>
-                        <h4>Tailwind</h4>
+                        <h4 className={st.title}>Tailwind</h4>
                         <small className='text-light'>Experienced</small>
                      </div>
                   </article>
                   <article className={st.details}>
                      <BsPatchCheckFill className={st.icon} />
                      <div>
-                        <h4>React</h4>
+                        <h4 className={st.title}>React</h4>
                         <small className='text-light'>Experienced</small>
                      </div>
                   </article>
                   <article className={st.details}>
                      <BsPatchCheckFill className={st.icon} />
                      <div>
-                        <h4>React</h4>
+                        <h4 className={st.title}>React</h4>
                         <small className='text-light'>Experienced</small>
                      </div>
                   </article>
@@ -71,43 +71,42 @@ export const Experients = () => {
                   <article className={st.details}>
                      <BsPatchCheckFill className={st.icon} />
                      <div>
-                        <h4>NodeJS</h4>
+                        <h4 className={st.title}>NodeJS</h4>
                         <small className='text-light'>Experienced</small>
                      </div>
                   </article>
                   <article className={st.details}>
                      <BsPatchCheckFill className={st.icon} />
                      <div>
-                        <h4>MongoDB</h4>
+                        <h4 className={st.title}>MongoDB</h4>
                         <small className='text-light'>Experienced</small>
                      </div>
                   </article>
                   <article className={st.details}>
                      <BsPatchCheckFill className={st.icon} />
                      <div>
-                        <h4>PHP</h4>
+                        <h4 className={st.title}>PHP</h4>
                         <small className='text-light'>Experienced</small>
                      </div>
                   </article>
                   <article className={st.details}>
                      <BsPatchCheckFill className={st.icon} />
                      <div>
-                        {' '}
-                        <h4>Intermediate</h4>
+                        <h4 className={st.title}>Intermediate</h4>
                         <small className='text-light'>Experienced</small>
                      </div>
                   </article>
                   <article className={st.details}>
                      <BsPatchCheckFill className={st.icon} />
                      <div>
-                        <h4>MySQL</h4>
+                        <h4 className={st.title}>MySQL</h4>
                         <small className='text-light'>Experienced</small>
                      </div>
                   </article>
                   <article className={st.details}>
                      <BsPatchCheckFill className={st.icon} />
                      <div>
-                        <h4>Pyton</h4>
+                        <h4 className={st.title}>Pyton</h4>
                         <small className='text-light'>Experienced</small>
                      </div>
                   </article>

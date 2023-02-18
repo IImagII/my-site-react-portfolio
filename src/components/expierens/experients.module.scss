@@ -21,6 +21,7 @@
       cursor: default;
    }
 }
+
 .content {
    display: grid;
    grid-template-columns: 1fr 1fr;
@@ -48,6 +49,9 @@
    .content {
       padding: 1rem;
    }
+   .title {
+      font-size: 0.8rem;
+   }
 }
 /*==================== МЕДИА ЗАПРОСЫ ДЛЯ МОБИЛЬНЫХ УСТРОЙСТВ===========================*/
 @media screen and (max-width: 600px) {
@@ -58,5 +62,8 @@
    .container > div {
       width: 100%;
       padding: 2rem 1rem;
+   }
+   .title {
+      font-size: 0.5rem;
    }
 }
